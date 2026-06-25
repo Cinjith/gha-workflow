@@ -26,7 +26,7 @@ jobs:
         context: .
         push: true
         tags: |
-          cinjith/docker_repo:latest
+          cinjith/docker_repo:cb-latest
           cinjith/docker_repo:${{ github.sha }}
 
     - name: Update application Repo
